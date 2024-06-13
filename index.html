@@ -3,9 +3,291 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>wmd_project</title>
+    <title>Dinosaur Extinction</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>my project</h1>
+    <nav class="navbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">[ Dinosaur + Extinction ]</a>
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="#causes">Causes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#theories">Hypotheses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#impact">Ex-video</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#fossils">Fossils</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <header id="home" class="masthead">
+      <div class="container">
+        <h1 class="masthead-heading">K-Pg extinction event</h1>
+        <p class="masthead-subheading">[ K-Pg 대멸종 ]</p>
+        <p class="masthead-subheading-1">
+          기원전 6,600만년 경 일어난 생물의 대멸종 사건이며, 이는 지질학적으로
+          중생대와 신생대를 가르는 기준이다.<br />
+          오늘날의 자연 파괴를 일컫는 '홀로세 대멸종'을 제외하고는 가장 최근에
+          일어난 대멸종으로서, <br />지질 시대 사상 다섯 번째 대멸종에 해당한다.
+        </p>
+      </div>
+    </header>
+
+    <section id="vertical-text-section" class="vertical-text-section">
+      <div class="vertical-text">
+        <div class="word">HOW</div>
+        <div class="word">DID</div>
+        <div class="word">THEY</div>
+        <div class="word">BECOME</div>
+        <div class="word">EXTINCT?</div>
+      </div>
+    </section>
+
+    <section id="causes" class="content-section">
+      <div class="container">
+        <h2>3 CAUSES OF EXTINCTION</h2>
+        <p>멸종의 3대 원인</p>
+        <div class="causes-details">
+          <div class="cause-item">
+            <h3>운석 충돌설</h3>
+            <p>
+              약 6,600만 년 전 소행성 충돌로 인한 대규모의 충격파와 산성비 등이
+              전세계를 덮쳤고, 그중에서 특히 대량으로 발생한 먼지가 대기권
+              상층부에 머물며 일으킨 빙하기가 멸종의 원인이 되었다는 것이다.
+            </p>
+          </div>
+          <div class="cause-item">
+            <h3>화산 활동설</h3>
+            <p>
+              데칸 트랩 초화산 활동 및 그와 관련된 장기적인 기후 변화에 의해
+              양치식물과 초식 공룡, 육식 공룡을 포함한 대형 파충류가 기후 변화에
+              의한 개체의 감소 및 이러한 종을 주식으로 삼는 종이 아사하는 연쇄
+              작용으로 인해 대멸종이 일어났다.
+            </p>
+          </div>
+          <div class="cause-item">
+            <h3>기후 변화설</h3>
+            <p>
+              기후가 갑자기 더워져 온난화가 일어나거나 추워져서 빙하기가
+              일어나거나 건조해지거나 습해지는 등 급격한 기후 변화가 일어나
+              멸종했다는 설.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="andand">
+      <h2>AND</h2>
+    </div>
+    <script
+      src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+      type="module"
+    ></script>
+
+    <div class="redlottie">
+      <dotlottie-player
+        style="margin: auto; display: block; transform: rotate(90deg)"
+        src="https://lottie.host/f1923e5e-608d-4e9d-8221-c6f3f67c21c1/tX7jB3kGUq.json"
+        background="transparent"
+        speed="1"
+        style="width: 300px; height: 300px"
+        loop
+        autoplay
+      ></dotlottie-player>
+    </div>
+
+    <section id="theories" class="content-section bg-dark">
+      <div class="container">
+        <h2>Other hypotheses</h2>
+        <p>기타 가설</p>
+        <img
+          src="your-image-path.jpg"
+          alt="Theories Image"
+          class="section-image"
+        />
+        <p style="color: rgb(71, 70, 70)">(학계에서는 인정하지 않습니다.)</p>
+        <div class="theories-details">
+          <img src="/assets/dinotoilet.webp" alt="" />
+          <p>
+            #1 : 공룡 변비설 <br />엄청난 기후변화에 공룡의 배변을 도와주는
+            성분을 갖고 있는 식물이 사라지고 공룡이 변비로 멸종했다는 가설. 물론
+            이 역시 위의 식물상 변화설과 마찬가지의 이유로 반박된다.
+          </p>
+          <p>
+            #2 : 알 도난설 <br />
+            포유류나 일부 소형 공룡들이 다른 공룡의 알을 훔쳐먹어 새끼가
+            태어나지 않아 공룡이 멸종했다는 가설.
+          </p>
+          <p>
+            #3 : 짝짓기 호수 부족설 <br />현재는 사장된 가설로, 공룡들이 얕은
+            호수가 넓게 펼쳐져 있는 중생대 환경에서 번성하였고 이와 같은 얕은
+            호수에서만 짝짓기가 가능했다는 구식 가설
+          </p>
+          <p>
+            #4 : 공룡 종족 노쇠설 <br />
+            공룡의 몸집이 지나치게 커지며, 몸이 무겁고 아둔해졌으며 이로 인해
+            짝짓기가 불가능해져서 멸종했다는 설
+          </p>
+          <p>
+            #5 : 식물상 변화설 <br />
+            초식공룡들이 새로 출현한 속씨식물을 소화하지 못해서 멸종했다는 가설.
+          </p>
+          <p>
+            #6 : 먹이 부족 및 동족포식설 <br />
+            초식공룡의 주 먹이인 식물, 소형 육식공룡의 먹이인 곤충, 수생 공룡의
+            먹이인 물고기 등 더 이상 남아나질 않게 되자, 결국 어쩔 수 없이
+            생존을 위해 동족 포식함.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="caution-section" class="vertical-text-section caution-section">
+      <div class="vertical-text">
+        <div class="word">CAUTION</div>
+      </div>
+    </section>
+
+    <section id="impact" class="content-section">
+      <div class="container">
+        <h2>DINOSAUR EX-VIDEO</h2>
+        <img
+          src="your-image-path.jpg"
+          alt="Impact Image"
+          class="section-image"
+        />
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/Y8Ij9xboreA?si=tVhl1JG1mA2n-fkX"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+        <p>소행성은 지구로 돌진해 공룡의 생명을 멈췄습니다.</p>
+        <div class="impact-details">
+          <p>
+            Meteors came hurtling to Earth and stopped life as they knew it for
+            the dinosaurs.
+          </p>
+          <p>Complete and instantaneous extinction is no longer the theory.</p>
+          <p>What did the extinction look like?</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="fossils" class="content-section bg-dark">
+      <div class="container">
+        <h2>Fossil Discoveries</h2>
+        <p>
+          Learn about the fossil discoveries that have provided insights into
+          the lives of dinosaurs and their extinction.
+        </p>
+        <div class="fossil-details">
+          <div class="fossil-item">
+            <h3>Tyrannosaurus Rex</h3>
+            <p>
+              The discovery of T. rex fossils has provided significant
+              information about this iconic dinosaur.
+            </p>
+          </div>
+          <div class="fossil-item">
+            <h3>Triceratops</h3>
+            <p>
+              Triceratops fossils have helped scientists understand more about
+              herbivorous dinosaurs.
+            </p>
+          </div>
+          <div class="fossil-item">
+            <h3>Velociraptor</h3>
+            <p>
+              Fossils of Velociraptor show evidence of their hunting behavior
+              and social structure.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="content-section">
+      <div class="container">
+        <h2>Contact to instagram</h2>
+        <p>@mdianeouni</p>
+        <p>
+          If you have any questions or comments about this website or the
+          information presented, feel free to reach out to me on social media.
+        </p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2024 Dinosaur + Extinction. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script>
+      // IntersectionObserver를 사용하여 텍스트가 뷰포트에 들어올 때 불투명도 변경
+      document.addEventListener('DOMContentLoaded', function () {
+        const words = document.querySelectorAll('.vertical-text .word');
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.style.opacity = 1;
+                entry.target.style.transform = 'translateY(0)';
+              } else {
+                entry.target.style.opacity = 0;
+                entry.target.style.transform = 'translateY(50px)';
+              }
+            });
+          },
+          { threshold: 0.1 }
+        );
+
+        words.forEach((word) => {
+          observer.observe(word);
+        });
+      });
+    </script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        const words = document.querySelectorAll('.caution-section .word');
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.style.opacity = 1;
+                entry.target.style.transform = 'translateY(0)';
+              } else {
+                entry.target.style.opacity = 0;
+                entry.target.style.transform = 'translateY(20px)';
+              }
+            });
+          },
+          { threshold: 0.1 }
+        );
+
+        words.forEach((word) => {
+          observer.observe(word);
+        });
+      });
+    </script>
   </body>
 </html>
