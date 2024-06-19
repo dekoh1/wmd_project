@@ -235,7 +235,7 @@ body {
 
 .footer p {
   margin: 0;
-  font-size: 1.2rem;
+  font-size: 0.8rem;
   color: rgb(53, 53, 53);
 }
 
@@ -245,6 +245,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-bottom: 50rem;
+  margin-top: 0;
 }
 
 .caution-section .vertical-text {
@@ -280,6 +281,12 @@ body {
   color: #ff2f2f;
   margin-top: 0.625rem;
 }
+
+.fossils-details p {
+  color: #ff7a7a;
+  margin-top: 0.625rem;
+}
+
 .theories-details h1 {
   color: #ff2f2f;
   margin: auto;
